@@ -5,6 +5,18 @@
     font-weight: 300;
 }
 
+
+
+
+.footer{
+    padding: 20px;
+    background: #3A87B0;
+}
+
+.footer img.zstu{
+    width: 100%;
+}
+
 .jumbotron {
     background: url(img/ITmanagement.png) no-repeat center center fixed;
     color: #ffffff;
@@ -30,7 +42,7 @@
 section.form-education{
     color: #ffffff;
     background: #52AD81;
-    margin: 40px 0;
+    margin: 40px 0 0 0;
     padding: 40px 0;
 }
 
@@ -81,4 +93,61 @@ section.form-education .col-md-8{
 
 .jumbotron .panel-info{
     color: #000000;
+}
+
+
+
+.program{
+    background: #e6e6e6;
+    padding: 40px 0;
+}
+.program ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.program ul li{
+    margin: 0;
+    padding: 4px 3px;
+}
+.sub-program-name {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .sub-program-name{
+        width: 19%;
+    }
+}
+
+.sub-program-name{
+    border-right: 2px solid #005580;
+    border-bottom: 1px solid #005580;
+    background: #ffffff;
+    margin: 4px;
+    padding: 5px 10px;
+}
+.sub-program-name i{
+    margin-right: 5px;
+}
+.sub-program-name .title{
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #005580;
+}
+
+.program-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-item >*{
+    display: block;
+    font-weight: 500;
+
+}
+.contact-item >*:first-child{
+    display: block;
+    font-weight: 900;
+
 }
