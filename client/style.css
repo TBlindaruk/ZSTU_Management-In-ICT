@@ -5,38 +5,8 @@
     font-weight: 300;
 }
 
-.col-xs-15,
-.col-sm-15,
-.col-md-15,
-.col-lg-15 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
 
-.col-xs-15 {
-    width: 20%;
-    float: left;
-}
-@media (min-width: 768px) {
-    .col-sm-15 {
-        width: 20%;
-        float: left;
-    }
-}
-@media (min-width: 992px) {
-    .col-md-15 {
-        width: 20%;
-        float: left;
-    }
-}
-@media (min-width: 1200px) {
-    .col-lg-15 {
-        width: 20%;
-        float: left;
-    }
-}
+
 
 .footer{
     padding: 20px;
@@ -44,7 +14,7 @@
 }
 
 .footer img.zstu{
-    width: 50%;
+    width: 100%;
 }
 
 .jumbotron {
@@ -72,7 +42,7 @@
 section.form-education{
     color: #ffffff;
     background: #52AD81;
-    margin: 40px 0;
+    margin: 40px 0 0 0;
     padding: 40px 0;
 }
 
@@ -129,4 +99,55 @@ section.form-education .col-md-8{
 
 .program{
     background: #e6e6e6;
+    padding: 40px 0;
+}
+.program ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.program ul li{
+    margin: 0;
+    padding: 4px 3px;
+}
+.sub-program-name {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+    .sub-program-name{
+        width: 19%;
+    }
+}
+
+.sub-program-name{
+    border-right: 2px solid #005580;
+    border-bottom: 1px solid #005580;
+    background: #ffffff;
+    margin: 4px;
+    padding: 5px 10px;
+}
+.sub-program-name i{
+    margin-right: 5px;
+}
+.sub-program-name .title{
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #005580;
+}
+
+.program-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-item >*{
+    display: block;
+    font-weight: 500;
+
+}
+.contact-item >*:first-child{
+    display: block;
+    font-weight: 900;
+
 }
