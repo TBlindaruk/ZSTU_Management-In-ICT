@@ -311,8 +311,15 @@
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script>
-    $('.navbar-collapse a').click(function (e) {
-        $('.navbar-collapse').collapse('toggle');
+    $(document).ready(function() {
+
+        $("body").click(function(event) {
+            // only do this if navigation is visible, otherwise you see jump in navigation while collapse() is called
+            if ($(".navbar-collapse").is(":visible") && $(".navbar-toggle").is(":visible") ) {
+                $('.navbar-collapse').collapse('toggle');
+            }
+        });
+
     });
 </script>
 </body>
