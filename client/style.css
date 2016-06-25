@@ -5,6 +5,48 @@
     font-weight: 300;
 }
 
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+    .col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+.footer{
+    padding: 20px;
+    background: #3A87B0;
+}
+
+.footer img.zstu{
+    width: 50%;
+}
+
 .jumbotron {
     background: url(img/ITmanagement.png) no-repeat center center fixed;
     color: #ffffff;
@@ -81,4 +123,10 @@ section.form-education .col-md-8{
 
 .jumbotron .panel-info{
     color: #000000;
+}
+
+
+
+.program{
+    background: #e6e6e6;
 }
