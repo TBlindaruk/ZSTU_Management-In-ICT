@@ -1,0 +1,21 @@
+{
+  "name": "client",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Tania Blindaruk <t.blindaruk@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/TBlindaruk/ZSTU_Management-In-ITC",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
