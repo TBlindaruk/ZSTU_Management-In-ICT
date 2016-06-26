@@ -7,23 +7,40 @@
 
 .footer {
     padding: 20px;
-    background: #3A87B0;
-    color: #ffffff;
+    background: rgba(255,255,255,0.5);
+    color: #000000;
+}
+.navbar{
+    background: rgba(255,255,255,0.5);
+    color: #000000;
+    border-bottom: none;
+}
+.navbar.shrink{
+    background: rgba(255,255,255,1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+    font-weight: 400;
+    color: #333;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #000000;
+
 }
 
 .footer img.zstu {
     width: 100%;
 }
-
+.home .btn-primary{
+    background: #64B5F6;
+}
 .home {
     background: url(img/ManagementIT.jpg) no-repeat center center fixed;
     color: #fff;
     background-size: cover;
 
-}
-.home .btn-success{
-    background: #3A87B0;
-    border: 1px solid #3A87B0;
 }
 
 .home .panel-info {
@@ -31,12 +48,12 @@
 }
 
 .home .panel-info{
-    border: 1px solid #3A87B0;
+    border: 1px solid #E3F2FD;
 }
 
 .home .panel-info .panel-heading{
-    background: #3A87B0;
-    color: #ffffff;
+    background: #E3F2FD;
+    color: #000000;
 }
 
 .program-topic-progress{
@@ -113,21 +130,21 @@ section.form-education .col-md-8 {
 
 
 .pricing-table .panel-info {
-    border: 1px solid #3A87B0;
+    border: 1px solid #BBDEFB;
 }
 
 .pricing-table .panel-success {
-    border: 1px solid #3A87B0;
+    border: 1px solid #BBDEFB;
 }
 
 .pricing-table .panel-info .panel-heading {
-    background: #3A87B0;
-    color: #ffffff;
+    background: #90CAF9;
+    color: #000000;
 }
 
 .pricing-table .panel-success .panel-heading {
-    background: #3A87B0;
-    color: #ffffff;
+    background: #BBDEFB;
+    color: #000000;
 }
 
 .pricing-intro h2 {
