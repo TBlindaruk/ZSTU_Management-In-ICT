@@ -7,7 +7,7 @@
 
 .footer {
     padding: 20px;
-    background: #000000;
+    background: #3A87B0;
     color: #ffffff;
 }
 
@@ -22,8 +22,8 @@
 
 }
 .home .btn-success{
-    background: #000000;
-    border: 1px solid #000000;
+    background: #3A87B0;
+    border: 1px solid #3A87B0;
 }
 
 .home .panel-info {
@@ -31,11 +31,11 @@
 }
 
 .home .panel-info{
-    border: 1px solid #000000;
+    border: 1px solid #3A87B0;
 }
 
 .home .panel-info .panel-heading{
-    background: #000000;
+    background: #3A87B0;
     color: #ffffff;
 }
 
@@ -113,20 +113,20 @@ section.form-education .col-md-8 {
 
 
 .pricing-table .panel-info {
-    border: 1px solid #000000;
+    border: 1px solid #3A87B0;
 }
 
 .pricing-table .panel-success {
-    border: 1px solid #000000;
+    border: 1px solid #3A87B0;
 }
 
 .pricing-table .panel-info .panel-heading {
-    background: #000000;
+    background: #3A87B0;
     color: #ffffff;
 }
 
 .pricing-table .panel-success .panel-heading {
-    background: #000000;
+    background: #3A87B0;
     color: #ffffff;
 }
 
@@ -168,8 +168,8 @@ section.form-education .col-md-8 {
 }
 
 .sub-program-name {
-    border-right: 2px solid #000000;
-    border-bottom: 1px solid #000000;
+    border-right: 2px solid #3A87B0;
+    border-bottom: 1px solid #3A87B0;
     background: #ffffff;
     margin: 4px;
     padding: 5px 10px;
@@ -181,7 +181,7 @@ section.form-education .col-md-8 {
 
 .sub-program-name .title {
     padding-bottom: 5px;
-    border-bottom: 1px dashed #000000;
+    border-bottom: 1px dashed #3A87B0;
 }
 .sub-program-name .title>* {
     font-weight: bold;
