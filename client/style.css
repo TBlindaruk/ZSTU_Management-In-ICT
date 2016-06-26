@@ -1,163 +1,207 @@
 @import url("//fonts.googleapis.com/css?family=Open+Sans:400,700,900,300");
 
 *, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Open Sans',serif;
+    font-family: 'Open Sans', serif;
     font-weight: 300;
 }
 
-
-.footer{
+.footer {
     padding: 20px;
-    background: #3A87B0;
+    background: #000000;
+    color: #ffffff;
 }
 
-.footer img.zstu{
+.footer img.zstu {
     width: 100%;
 }
 
-.jumbotron {
-    background: url(img/ITmanagement.png) no-repeat center center fixed;
-    color: #ffffff;
+.home {
+    background: url(img/ManagementIT.jpg) no-repeat center center fixed;
+    color: #fff;
     background-size: cover;
 
 }
-.form-education{
-
+.home .btn-success{
+    background: #000000;
+    border: 1px solid #000000;
 }
 
-.jumbotron p{
+.home .panel-info {
+    color: #000000;
+}
+
+.home .panel-info{
+    border: 1px solid #000000;
+}
+
+.home .panel-info .panel-heading{
+    background: #000000;
+    color: #ffffff;
+}
+
+.program-topic-progress{
+    height: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 40px;
+    display: flex;
+}
+.program-topic-progress > *{
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+}
+
+.home-inner-wrapper {
+    padding: 40px 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.home p {
     padding: 20px 0;
 }
 
-.jumbotron .media{
+.home .media {
     margin: 50px 0;
 }
-.jumbotron .media-body h1{
+
+.home .media-body h1 {
     margin-top: 50px;
 }
-.title{
+
+.title {
     font-weight: 600;
 }
 
-.level-up{
+.level-up {
     padding: 40px 0;
 }
 
-section.form-education{
+section.form-education {
     margin: 40px 0 0 0;
     background: url(img/EducationForm.jpg) no-repeat center center fixed;
     color: #fff;
     background-size: cover;
 }
-.form-education-inner-wrapper{
-    background: rgba(0,0,0,0.7);
+
+.form-education-inner-wrapper {
+    background: rgba(0, 0, 0, 0.7);
     padding: 40px 0;
 }
 
-section.form-education h2{
+section.form-education h2 {
     margin-bottom: 20px;
 }
 
-section.form-education .col-md-8{
+section.form-education .col-md-8 {
     padding-left: 30px;
 }
-.form-education img{
+
+.form-education img {
     width: 100%;
 }
 
-
-
-.pricing-intro{
+.pricing-intro {
     margin-bottom: 70px;
 }
 
 .pricing-table .panel {
     background: #eeeeee;
 }
-.pricing-table .panel-danger {
-    border: 1px solid #CD5A48;
-}
+
+
 .pricing-table .panel-info {
-    border: 1px solid #3A87B0;
+    border: 1px solid #000000;
 }
+
 .pricing-table .panel-success {
-    border: 1px solid #468847;
+    border: 1px solid #000000;
 }
-.pricing-table .panel-danger .panel-heading{
-    background: #CD5A48;
+
+.pricing-table .panel-info .panel-heading {
+    background: #000000;
     color: #ffffff;
 }
-.pricing-table .panel-info .panel-heading{
-    background: #3A87B0;
+
+.pricing-table .panel-success .panel-heading {
+    background: #000000;
     color: #ffffff;
 }
-.pricing-table .panel-success .panel-heading{
-    background: #468847;
-    color: #ffffff;
-}
-.pricing-intro h2{
+
+.pricing-intro h2 {
     margin-bottom: 20px;
 }
 
-.jumbotron .panel-info{
-    color: #000000;
-}
-
-
-
-.program{
+.program {
     background: #e6e6e6;
     padding: 40px 0;
 }
-.program ul{
+
+.program .color{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.program ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
-.program ul li{
+
+.program ul li {
     margin: 0;
     padding: 4px 3px;
 }
+
 .sub-program-name {
     width: 100%;
 }
 
 @media (min-width: 992px) {
-    .sub-program-name{
+    .sub-program-name {
         width: 19%;
     }
 }
 
-.sub-program-name{
-    border-right: 2px solid #005580;
-    border-bottom: 1px solid #005580;
+.sub-program-name {
+    border-right: 2px solid #000000;
+    border-bottom: 1px solid #000000;
     background: #ffffff;
     margin: 4px;
     padding: 5px 10px;
 }
-.sub-program-name i{
+
+.sub-program-name i {
     margin-right: 5px;
 }
-.sub-program-name .title{
-    padding-bottom: 5px;
-    border-bottom: 1px dashed #005580;
-}
 
-.program-container{
+.sub-program-name .title {
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #000000;
+}
+.sub-program-name .title>* {
+    font-weight: bold;
+}
+.program-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.contact-item{
+
+.contact-item {
     padding: 10px 5px;
 }
-.contact-item >*{
+
+.contact-item > * {
     display: block;
     font-weight: 500;
-
 }
-.contact-item >*:first-child{
+
+.contact-item > *:first-child {
     display: block;
     font-weight: 900;
-
 }
