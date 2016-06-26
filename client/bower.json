@@ -16,6 +16,8 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "~3.3.6"
+    "bootstrap": "~3.3.6",
+    "components-font-awesome": "3.2.1",
+    "knockout": "~3.4.0"
   }
 }

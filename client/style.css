@@ -25,6 +25,21 @@
     color: #000000;
 }
 
+.program-topic-progress{
+    height: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 40px;
+    display: flex;
+}
+.program-topic-progress > *{
+    color: #ffffff;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+}
+
 .home-inner-wrapper {
     padding: 40px 0;
     background: rgba(0, 0, 0, 0.4);
@@ -118,6 +133,13 @@ section.form-education .col-md-8 {
     padding: 40px 0;
 }
 
+.program .color{
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
 .program ul {
     margin: 0;
     padding: 0;
@@ -155,7 +177,9 @@ section.form-education .col-md-8 {
     padding-bottom: 5px;
     border-bottom: 1px dashed #005580;
 }
-
+.sub-program-name .title>* {
+    font-weight: bold;
+}
 .program-container {
     display: flex;
     flex-wrap: wrap;
