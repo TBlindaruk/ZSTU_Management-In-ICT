@@ -10,12 +10,10 @@
 }
 .footer {
     padding: 20px;
-    background: #e6e6e6;
+    background: #ffffff;
     color: #000000;
 }
-.document{
-    /*border-bottom: 1px solid #000000;*/
-}
+
 .navbar{
     background: rgba(255,255,255,0.5);
     color: #000000;
@@ -35,9 +33,14 @@
     color: #000000;
 
 }
+.footer .row{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .footer img.zstu {
-    width: 100%;
+    width: 50%;
+    text-align: center;
 }
 .home .btn-primary{
     background: #64B5F6;
