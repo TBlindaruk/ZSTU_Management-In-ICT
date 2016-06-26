@@ -7,7 +7,8 @@
 
 .footer {
     padding: 20px;
-    background: #3A87B0;
+    background: #000000;
+    color: #ffffff;
 }
 
 .footer img.zstu {
@@ -20,9 +21,22 @@
     background-size: cover;
 
 }
+.home .btn-success{
+    background: #000000;
+    border: 1px solid #000000;
+}
 
 .home .panel-info {
     color: #000000;
+}
+
+.home .panel-info{
+    border: 1px solid #000000;
+}
+
+.home .panel-info .panel-heading{
+    background: #000000;
+    color: #ffffff;
 }
 
 .program-topic-progress{
@@ -97,30 +111,22 @@ section.form-education .col-md-8 {
     background: #eeeeee;
 }
 
-.pricing-table .panel-danger {
-    border: 1px solid #CD5A48;
-}
 
 .pricing-table .panel-info {
-    border: 1px solid #3A87B0;
+    border: 1px solid #000000;
 }
 
 .pricing-table .panel-success {
-    border: 1px solid #468847;
-}
-
-.pricing-table .panel-danger .panel-heading {
-    background: #CD5A48;
-    color: #ffffff;
+    border: 1px solid #000000;
 }
 
 .pricing-table .panel-info .panel-heading {
-    background: #3A87B0;
+    background: #000000;
     color: #ffffff;
 }
 
 .pricing-table .panel-success .panel-heading {
-    background: #468847;
+    background: #000000;
     color: #ffffff;
 }
 
@@ -162,8 +168,8 @@ section.form-education .col-md-8 {
 }
 
 .sub-program-name {
-    border-right: 2px solid #005580;
-    border-bottom: 1px solid #005580;
+    border-right: 2px solid #000000;
+    border-bottom: 1px solid #000000;
     background: #ffffff;
     margin: 4px;
     padding: 5px 10px;
@@ -175,7 +181,7 @@ section.form-education .col-md-8 {
 
 .sub-program-name .title {
     padding-bottom: 5px;
-    border-bottom: 1px dashed #005580;
+    border-bottom: 1px dashed #000000;
 }
 .sub-program-name .title>* {
     font-weight: bold;
