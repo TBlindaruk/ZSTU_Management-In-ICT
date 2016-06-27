@@ -37,7 +37,9 @@
     display: flex;
     flex-wrap: wrap;
 }
-
+.home .panel{
+    text-align: left;
+}
 .footer img.zstu {
     width: 50%;
     text-align: center;
