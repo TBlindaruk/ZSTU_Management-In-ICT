@@ -1,10 +1,12 @@
-@import url("//fonts.googleapis.com/css?family=Open+Sans:400,700,900,300");
 
-*, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Open Sans', serif;
-    font-weight: 300;
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'PT Serif', serif;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
 .navbar-inverse .navbar-toggle .icon-bar{
     background: #000000;
 }
