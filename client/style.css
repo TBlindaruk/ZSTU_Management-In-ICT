@@ -7,6 +7,9 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+.panel-org-info, .panel-org-info *{
+    background: rgba(0,0,0,0);
+}
 .navbar-inverse .navbar-toggle .icon-bar{
     background: #000000;
 }
