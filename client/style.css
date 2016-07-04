@@ -238,3 +238,15 @@ section.form-education .col-md-8 {
     display: block;
     font-weight: 900;
 }
+
+.pressRelease{
+    color: #000000;
+    background: #ffffff !important;
+}
+.pressRelease p{
+    text-indent: 30px;
+}
+.press-release-inner-wrapper{
+    padding: 40px 0;
+    background: rgba(0,0,0,0.1);
+}
