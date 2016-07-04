@@ -37,7 +37,7 @@
                 <li><a href="#levelUp">Профіль</a></li>
                 <li><a href="#features">Форми навчання</a></li>
                 <li><a href="#program">Програма</a></li>
-                <li><a href="pressRelease.html">Проесс-Реліз</a></li>
+                <li><a href="pressRelease.html">Прес-реліз</a></li>
             </ul>
 
         </div>
@@ -54,8 +54,7 @@
                             <div class="panel panel-info">
                                 <div class="panel-heading"><h3 class="">Менеджмент в ІТ</h3></div>
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><i class="icon-ok text-info"></i> Курси від найкращих
-                                        університетов світу
+                                    <li class="list-group-item"><i class="icon-ok text-info"></i> Курси від найкращих університетів світу
                                     </li>
                                     <li class="list-group-item"><i class="icon-ok text-info"></i> Лекції та
                                         майстер-класи
@@ -180,7 +179,7 @@
                                     <div class="feature-box-info">
                                         <h4 class="shorter title">Змішані курси</h4>
 
-                                        <p class="tall">Змішані курси на основі MOOC-ів провіднихуніверситетів</p>
+                                        <p class="tall">Змішані курси на основі MOOC-ів провідних університетів</p>
                                     </div>
                                 </div>
 
@@ -296,6 +295,7 @@
 <script src="bower_components/knockout/dist/knockout.js"></script>
 
 <script src="app/js/main.js"></script>
+<script src="app/js/scripts.js"></script>
 
 <script>
     $(window).scroll(function () {
@@ -305,6 +305,22 @@
             $('.navbar').removeClass('shrink');
         }
     });
+</script>
+<script>
+    if(!readCookie('sessionId')) {
+        writeCookie('sessionId', makeid(), 360);
+    }
+</script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-80282436-1', 'auto');
+    ga('set', 'userId', readCookie('sessionId'));
+    ga('send', 'pageview')
+
 </script>
 </body>
 </html>
