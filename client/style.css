@@ -119,6 +119,15 @@ section.form-education {
     background-size: cover;
 }
 
+section.contact{
+    background: url(img/contactUs.jpg) no-repeat center center fixed;
+    color: #fff;
+    background-size: cover;
+}
+section.contact .contact-inner{
+    padding: 40px 0;
+    background: rgba(0,0,0,0.4);
+}
 .form-education-inner-wrapper {
     background: rgba(0, 0, 0, 0.7);
     padding: 40px 0;
