@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Менеджмент в ІТ ">
     <meta name="author" content="">
-    <meta property="og:image" content="http://it-man.ztu.edu.ua/img/ManagementIT.jpg" />
+    <meta property="og:image" content="http://it-man.ztu.edu.ua/img/ManagementIT.jpg"/>
 
     <link rel="shortcut icon" href="img/ManagementIT.jpg">
 
     <title>Менеджмент в ІТ | ЖДТУ </title>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:700&subset=cyrillic-ext" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:700&subset=cyrillic-ext"
+          type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -38,6 +39,7 @@
                 <li><a href="#levelUp">Профіль</a></li>
                 <li><a href="#features">Форми навчання</a></li>
                 <li><a href="#program">Програма</a></li>
+                <li><a href="#contact">Контакти</a></li>
                 <li><a href="pressRelease.html">Прес-реліз</a></li>
             </ul>
 
@@ -55,7 +57,8 @@
                             <div class="panel panel-info">
                                 <div class="panel-heading"><h3 class="">Менеджмент в ІТ</h3></div>
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><i class="icon-ok text-info"></i> Курси від найкращих університетів світу
+                                    <li class="list-group-item"><i class="icon-ok text-info"></i> Курси від найкращих
+                                        університетів світу
                                     </li>
                                     <li class="list-group-item"><i class="icon-ok text-info"></i> Лекції та
                                         майстер-класи
@@ -80,13 +83,13 @@
                             <h2 class="title">
                                 Магістерська ступінь
                                 в області комп'ютерних наук зі спеціалізацією в галузі управління в сфері ІКТ</h2>
+
                             <div class="panel panel-org-info col-md-11">
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item">Кількість місць - 15</li>
                                     <li class="list-group-item">Термін навчання - 1.5 роки</li>
                                     <li class="list-group-item">Розклад планується з урахуванням побажань студентів</li>
-                                    <li class="list-group-item">Орієнтована вартість - 20 000 грн. в рік</li>
-
+                                    <li class="list-group-item">Орієнтована вартість - 14 900 грн. в рік</li>
 
 
                                 </ul>
@@ -254,8 +257,30 @@
             <!--<div data-bind="topicsPercentage: {program: program}" class="program-topic-progress"></div>-->
         </div>
     </section>
+    <section id="contact" class="contact">
+        <div class="contact-inner">
+        <div class="container">
+            <div class="contact-inner-inner">
+                <div class="col-md-6">
+                    <h2 class="text-center">Лови свій шанс!</h2>
+                    <h2 class="text-center">Стань студентом сьогодні!</h2>
+                    <a target="_blank" href="http://goo.gl/forms/oGJ6c2Wed9zFW4a93" class="btn btn-come-student btn-success btn-lg center-block">Cтати студентом</a>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <h2> Задай питання! </h2>
+                        <input placeholder="e-mail" type="text" class="form-control">
+                        <textarea placeholder="Ваше повідомлення" class="form-control"></textarea>
+                        <button class="btn btn-block btn-send btn-success btn-lg center-block">Відправити повідомлення</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+    </section>
 </div>
-<footer id="contact" class="footer">
+<footer  class="footer">
     <div class="footer-copyright">
         <div class="container">
             <div class="row">
@@ -308,15 +333,22 @@
     });
 </script>
 <script>
-    if(!readCookie('sessionId')) {
+    if (!readCookie('sessionId')) {
         writeCookie('sessionId', makeid(), 360);
     }
 </script>
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-80282436-1', 'auto');
     ga('set', 'userId', readCookie('sessionId'));
