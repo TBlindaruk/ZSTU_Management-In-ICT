@@ -3,6 +3,21 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'PT Serif', serif;
 }
 
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    white !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    white !important;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    white !important;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    white !important;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -258,4 +273,30 @@ section.form-education .col-md-8 {
 .press-release-inner-wrapper{
     padding: 40px 0;
     background: rgba(0,0,0,0.1);
+}
+
+.contact .btn.btn-come-student,
+.contact .btn.btn-send{
+    background: rgba(21,101,192,0.8);
+    border: 1px solid #1565C0;
+}
+.contact textarea,
+.contact input[type='text']{
+    background: rgba(21,101,192,0.8);
+    margin: 20px 0;
+    color: white;
+}
+
+.contact textarea{
+    resize: none;
+    background: rgba(21,101,192,0.8);
+    min-height: 300px;
+    margin: 20px 0;
+    color: white;
+}
+
+@media (min-width:992px) {
+    .contact .btn.btn-come-student {
+        margin-top: 30%;
+    }
 }
