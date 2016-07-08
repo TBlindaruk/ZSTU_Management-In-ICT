@@ -142,8 +142,8 @@
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="bower_components/knockout/dist/knockout.js"></script>
 
-<script src="app/js/main.js"></script>
-<script src="app/js/scripts.js"></script>
+<script src="js/main.js"></script>
+<script src="js/scripts.js"></script>
 
 <script>
     $(window).scroll(function () {
