@@ -1,0 +1,22 @@
+{
+  "name": "src",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Tania Blindaruk <t.blindaruk@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/TBlindaruk/ZSTU_Management-In-ICT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "components-font-awesome": "3.2.1",
+    "knockout": "^3.4.0"
+  }
+}
