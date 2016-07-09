@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('/pressRelease', function () {
     return view('pressRelease');
 });
+
+Route::get('/question','ContactController@index');

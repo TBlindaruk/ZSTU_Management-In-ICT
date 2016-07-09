@@ -300,3 +300,8 @@ section.form-education .col-md-8 {
         margin-top: 30%;
     }
 }
+
+#contactUsBlock > *{
+    color: white !important;
+    margin-top: 30px;
+}

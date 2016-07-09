@@ -267,13 +267,15 @@
                         <a target="_blank" href="http://goo.gl/forms/oGJ6c2Wed9zFW4a93" class="btn btn-come-student btn-success btn-lg center-block">Cтати студентом</a>
                     </div>
                     <div class="col-md-6">
-                        <div>
+                        <div >
                             <h2> Задай питання! </h2>
-                            <input placeholder="e-mail" type="text" class="form-control">
-                            <textarea placeholder="Ваше повідомлення" class="form-control"></textarea>
-                            <button class="btn btn-block btn-send btn-success btn-lg center-block">Відправити повідомлення</button>
+                            <input id ='email' name="email" placeholder="e-mail" type="text" class="form-control">
+                            <textarea id ='question' name="question" placeholder="Ваше повідомлення" class="form-control"></textarea>
+                            <button id="sendQuestion" class="btn send-question btn-block btn-send btn-success btn-lg center-block">Відправити повідомлення</button>
 
+                            <div id="contactUsBlock"></div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -354,6 +356,30 @@
     ga('set', 'userId', readCookie('sessionId'));
     ga('send', 'pageview')
 
+</script>
+
+<script>
+    $('#sendQuestion').on('click',function(){
+        debugger;
+        $.ajax({
+            url: '//' + location.hostname + '/question?email='+$('#email').val()+'&content='+$('#question').val(),
+            type: 'GET',
+            dataType: 'json',
+            processData: false,
+            success: function(response){
+                $('#email').val('');
+                $('#question').val('');
+                $('#contactUsBlock').html('<span class="btn send-question btn-block btn-send btn-success btn-lg center-block alert alert-info">Дякуємо за питання! Ми обов’язково вам відповімо</span>');
+//                alert alert-info
+            },
+            error: function(response){
+                debugger;
+            }
+        });
+    });
+    $('#contactUsBlock').on('click',function(){
+        $(this).toggle();
+    })
 </script>
 </body>
 </html>
