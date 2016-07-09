@@ -40,7 +40,7 @@
                 <li><a href="/#features">Форми навчання</a></li>
                 <li><a href="/#program">Програма</a>
                 <li><a href="/#contact">Контакти</a></li>
-                <li><a href="pressRelease">Проесс-Реліз</a></li>
+                <li><a href="pressRelease">Прес-реліз</a></li>
             </ul>
 
         </div>
