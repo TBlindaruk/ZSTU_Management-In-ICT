@@ -57,34 +57,15 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-.home .panel{
-    text-align: left;
-}
 .footer img.zstu {
     width: 50%;
     text-align: center;
-}
-.home .btn-primary{
-    background: #64B5F6;
 }
 .home {
     background: url(../img/ManagementIT.jpg) no-repeat center center fixed;
     color: #fff;
     background-size: cover;
 
-}
-
-.home .panel-info {
-    color: #000000;
-}
-
-.home .panel-info{
-    border: 1px solid #E3F2FD;
-}
-
-.home .panel-info .panel-heading{
-    background: #E3F2FD;
-    color: #000000;
 }
 
 .program-topic-progress{
@@ -164,6 +145,10 @@ section.form-education .col-md-8 {
     margin-bottom: 70px;
 }
 
+.home .panel-info {
+    color: #000000;
+}
+
 .pricing-table .panel {
     background: #eeeeee;
 }
@@ -173,17 +158,9 @@ section.form-education .col-md-8 {
     border: 1px solid #BBDEFB;
 }
 
-.pricing-table .panel-success {
-    border: 1px solid #BBDEFB;
-}
-
+.home .panel-info .panel-heading,
 .pricing-table .panel-info .panel-heading {
     background: #90CAF9;
-    color: #000000;
-}
-
-.pricing-table .panel-success .panel-heading {
-    background: #BBDEFB;
     color: #000000;
 }
 

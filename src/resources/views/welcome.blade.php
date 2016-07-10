@@ -104,7 +104,7 @@
         <div class="container">
             <div class="row pricing-table">
                 <div class="col-md-6">
-                    <div class="panel panel-success">
+                    <div class="panel panel-info">
                         <div class="panel-heading"><h3>ПРОФІЛЬ ВСТУПНИКА</h3></div>
                         <div class="panel-body title">
                             Для успішного навчання та побудови кар’єри менеджера в ІТ, ми хотіли б бачити студентами
