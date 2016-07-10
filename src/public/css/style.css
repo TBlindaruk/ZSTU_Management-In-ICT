@@ -128,7 +128,7 @@ body{
 }
 
 section.form-education {
-    margin: 40px 0 0 0;
+    margin: 0;
     background: url(../img/EducationForm.jpg) no-repeat center center fixed;
     color: #fff;
     background-size: cover;
@@ -304,4 +304,15 @@ section.form-education .col-md-8 {
 #contactUsBlock > *{
     color: white !important;
     margin-top: 30px;
+}
+.video{
+    padding: 40px 0;
+    background: #eee;
+}
+.video h1{
+    font-size: 72px;
+    text-align: center;
+}
+.video iframe{
+    width: 100%;
 }

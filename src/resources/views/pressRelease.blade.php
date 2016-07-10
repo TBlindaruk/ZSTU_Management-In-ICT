@@ -37,6 +37,7 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li><a href="/#levelUp">Профіль</a></li>
+                <li><a href="/#video">Про спеціальність</a></li>
                 <li><a href="/#features">Форми навчання</a></li>
                 <li><a href="/#program">Програма</a>
                 <li><a href="/#contact">Контакти</a></li>

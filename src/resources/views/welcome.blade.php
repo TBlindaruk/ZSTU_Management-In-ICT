@@ -37,6 +37,7 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
                 <li><a href="#levelUp">Профіль</a></li>
+                <li><a href="#video">Про спеціальність</a></li>
                 <li><a href="#features">Форми навчання</a></li>
                 <li><a href="#program">Програма</a></li>
                 <li><a href="#contact">Контакти</a></li>
@@ -90,8 +91,6 @@
                                     <li class="list-group-item">Термін навчання - 1.5 роки</li>
                                     <li class="list-group-item">Розклад планується з урахуванням побажань студентів</li>
                                     <li class="list-group-item">Орієнтована вартість - 14 900 грн. в рік</li>
-
-
                                 </ul>
                             </div>
                         </div>
@@ -160,7 +159,16 @@
             </div>
         </div>
     </section>
-
+    <section id='video' class="video">
+        <div class="container">
+        <div class="col-md-6">
+            <h1>Хто такий менеджер проектів в ІТ?</h1>
+        </div>
+        <div class="col-md-6">
+            <iframe width="854" height="400" src="https://www.youtube.com/embed/EsUPoAYJy1U" frameborder="0" allowfullscreen></iframe>
+        </div>
+        </div>
+    </section>
     <section class="form-education" id="features">
         <div class="form-education-inner-wrapper">
             <div class="container">
@@ -360,7 +368,6 @@
 
 <script>
     $('#sendQuestion').on('click',function(){
-        debugger;
         $.ajax({
             url: '//' + location.hostname + '/question?email='+$('#email').val()+'&content='+$('#question').val(),
             type: 'GET',
@@ -373,7 +380,6 @@
 //                alert alert-info
             },
             error: function(response){
-                debugger;
             }
         });
     });
