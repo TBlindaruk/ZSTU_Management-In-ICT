@@ -3,64 +3,57 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'PT Serif', serif;
 }
 
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    white !important;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    white !important;
-    opacity:  1;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    white !important;
-    opacity:  1;
-}
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color:    white !important;
-}
-
-body{
+body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
-.panel-org-info, .panel-org-info *{
-    background: rgba(0,0,0,0);
+
+.panel-org-info, .panel-org-info * {
+    background: rgba(0, 0, 0, 0);
 }
-.navbar-inverse .navbar-toggle .icon-bar{
+
+.navbar-inverse .navbar-toggle .icon-bar {
     background: #000000;
 }
+
 .footer {
     padding: 40px 0;
     background: #ffffff;
     color: #000000;
 }
 
-.navbar{
-    background: rgba(255,255,255,1);
+.navbar {
+    background: rgba(255, 255, 255, 1);
     color: #000000;
     border-bottom: none;
 }
-.navbar.shrink{
-    background: rgba(255,255,255,1);
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+.navbar.shrink {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.navbar-inverse .navbar-nav>li>a,
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+.navbar-inverse .navbar-nav > li > a,
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
     font-weight: 400;
     color: #333;
 }
-.navbar-inverse .navbar-nav>li>a:hover{
+
+.navbar-inverse .navbar-nav > li > a:hover {
     color: #000000;
 
 }
-.footer .row{
+
+.footer .row {
     display: flex;
     flex-wrap: wrap;
 }
+
 .footer img.zstu {
     width: 50%;
     text-align: center;
 }
+
 .home {
     background: url(../img/ManagementIT.jpg) no-repeat center center fixed;
     color: #fff;
@@ -68,14 +61,15 @@ body{
 
 }
 
-.program-topic-progress{
+.program-topic-progress {
     height: 40px;
     border-radius: 5px;
     overflow: hidden;
     margin-top: 40px;
     display: flex;
 }
-.program-topic-progress > *{
+
+.program-topic-progress > * {
     color: #ffffff;
     line-height: 30px;
     text-align: center;
@@ -115,15 +109,17 @@ section.form-education {
     background-size: cover;
 }
 
-section.contact{
+section.contact {
     background: url(../img/contactUs.jpg) no-repeat center center fixed;
     color: #fff;
     background-size: cover;
 }
-section.contact .contact-inner{
+
+section.contact .contact-inner {
     padding: 60px 0;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0, 0, 0, 0.4);
 }
+
 .form-education-inner-wrapper {
     background: rgba(0, 0, 0, 0.7);
     padding: 40px 0;
@@ -153,7 +149,6 @@ section.form-education .col-md-8 {
     background: #eeeeee;
 }
 
-
 .pricing-table .panel-info {
     border: 1px solid #BBDEFB;
 }
@@ -173,7 +168,7 @@ section.form-education .col-md-8 {
     padding: 40px 0;
 }
 
-.program .color{
+.program .color {
     width: 15px;
     height: 15px;
     display: inline-block;
@@ -217,9 +212,11 @@ section.form-education .col-md-8 {
     padding-bottom: 5px;
     border-bottom: 1px dashed #3A87B0;
 }
-.sub-program-name .title>* {
+
+.sub-program-name .title > * {
     font-weight: bold;
 }
+
 .program-container {
     display: flex;
     flex-wrap: wrap;
@@ -240,56 +237,62 @@ section.form-education .col-md-8 {
     font-weight: 900;
 }
 
-.pressRelease{
+.pressRelease {
     color: #000000;
     background: #ffffff !important;
 }
-.pressRelease p{
+
+.pressRelease p {
     text-indent: 30px;
 }
-.press-release-inner-wrapper{
+
+.press-release-inner-wrapper {
     padding: 40px 0;
-    background: rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.1);
 }
 
 .contact .btn.btn-come-student,
-.contact .btn.btn-send{
-    background: rgba(144, 202, 249,0.9);
+.contact .btn.btn-send {
+    background: rgba(144, 202, 249, 0.9);
     border: 1px solid #1565C0;
     margin-top: 20px;
     width: 60%;
     color: #000000;
 }
+
 .contact textarea,
-.contact input[type='text']{
-    background: rgba(21,101,192,0.8);
+.contact input[type='text'] {
+    background: rgba(21, 101, 192, 0.8);
     margin: 20px 0;
     color: white;
 }
 
-.contact textarea{
+.contact textarea {
     resize: none;
-    background: rgba(21,101,192,0.8);
+    background: rgba(21, 101, 192, 0.8);
     min-height: 300px;
     margin: 20px 0;
     color: white;
 }
 
-#contactUsBlock > *{
+#contactUsBlock > * {
     color: white !important;
     margin-top: 30px;
 }
-.video{
+
+.video {
     padding: 40px 0;
     background: #eee;
 }
 
-.video iframe{
+.video iframe {
     width: 100%;
 }
-.footer .contact{
+
+.footer .contact {
     margin-bottom: 10px;
 }
-.footer-copyright{
+
+.footer-copyright {
     padding-bottom: 40px;
 }
