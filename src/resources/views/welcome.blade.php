@@ -83,7 +83,7 @@
                         <div class="col-md-11 center-block">
                             <h2 class="title">
                                 Магістерська ступінь
-                                у галузі інформаційних технологій зі спеціалізацією в обаласті управління у сфері ІКТ</h2>
+                                у галузі інформаційних технологій зі спеціалізацією в області управління у сфері ІКТ</h2>
 
                             <div class="panel panel-org-info col-md-11">
                                 <ul class="list-group list-group-flush">
