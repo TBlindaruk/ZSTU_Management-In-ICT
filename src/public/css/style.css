@@ -310,9 +310,16 @@ section.form-education .col-md-8 {
     background: #eee;
 }
 .video h1{
-    font-size: 72px;
+
     text-align: center;
 }
+@media (min-width: 992px){
+    .video h1 {
+        font-size: 72px;
+    }
+}
+
+
 .video iframe{
     width: 100%;
 }
