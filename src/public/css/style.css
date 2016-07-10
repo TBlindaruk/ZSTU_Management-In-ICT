@@ -29,7 +29,7 @@ body{
     background: #000000;
 }
 .footer {
-    padding: 20px;
+    padding: 40px 0;
     background: #ffffff;
     color: #000000;
 }
@@ -140,7 +140,7 @@ section.contact{
     background-size: cover;
 }
 section.contact .contact-inner{
-    padding: 40px 0;
+    padding: 60px 0;
     background: rgba(0,0,0,0.4);
 }
 .form-education-inner-wrapper {
@@ -277,8 +277,11 @@ section.form-education .col-md-8 {
 
 .contact .btn.btn-come-student,
 .contact .btn.btn-send{
-    background: rgba(21,101,192,0.8);
+    background: rgba(144, 202, 249,0.9);
     border: 1px solid #1565C0;
+    margin-top: 20px;
+    width: 60%;
+    color: #000000;
 }
 .contact textarea,
 .contact input[type='text']{
@@ -295,12 +298,6 @@ section.form-education .col-md-8 {
     color: white;
 }
 
-@media (min-width:992px) {
-    .contact .btn.btn-come-student {
-        margin-top: 30%;
-    }
-}
-
 #contactUsBlock > *{
     color: white !important;
     margin-top: 30px;
@@ -309,17 +306,13 @@ section.form-education .col-md-8 {
     padding: 40px 0;
     background: #eee;
 }
-.video h1{
-
-    text-align: center;
-}
-@media (min-width: 992px){
-    .video h1 {
-        font-size: 72px;
-    }
-}
-
 
 .video iframe{
     width: 100%;
+}
+.footer .contact{
+    margin-bottom: 10px;
+}
+.footer-copyright{
+    padding-bottom: 40px;
 }

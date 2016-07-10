@@ -83,7 +83,8 @@
                         <div class="col-md-11 center-block">
                             <h2 class="title">
                                 Магістерська ступінь
-                                у галузі інформаційних технологій зі спеціалізацією в області управління у сфері ІКТ</h2>
+                                у галузі інформаційних технологій зі спеціалізацією в області управління у сфері
+                                ІКТ</h2>
 
                             <div class="panel panel-org-info col-md-11">
                                 <ul class="list-group list-group-flush">
@@ -161,12 +162,15 @@
     </section>
     <section id='video' class="video">
         <div class="container">
-        <div class="col-md-6">
-            <h1>Хто такий менеджер проектів в ІТ?</h1>
-        </div>
-        <div class="col-md-6">
-            <iframe width="854" height="400" src="https://www.youtube.com/embed/EsUPoAYJy1U" frameborder="0" allowfullscreen></iframe>
-        </div>
+            <div class="col-md-6">
+                <iframe width="854" height="400" src="https://www.youtube.com/embed/EsUPoAYJy1U" frameborder="0"
+                        allowfullscreen></iframe>
+            </div>
+            <div class="col-md-6">
+                <h1>Про те, чим займаються менеджери в ІТ-компаніях, розповідає Валентин Янчук, менеджер ІТ-компанії
+                    "ІСМ Україна", кандидат технічних наук.</h1>
+            </div>
+
         </div>
     </section>
     <section class="form-education" id="features">
@@ -265,34 +269,13 @@
             <!--<div data-bind="topicsPercentage: {program: program}" class="program-topic-progress"></div>-->
         </div>
     </section>
-    <section id="contact" class="contact">
-        <div class="contact-inner">
-            <div class="container">
-                <div class="contact-inner-inner">
-                    <div class="col-md-6">
-                        <h2 class="text-center">Лови свій шанс!</h2>
-                        <h2 class="text-center">Стань студентом сьогодні!</h2>
-                        <a target="_blank" href="http://goo.gl/forms/oGJ6c2Wed9zFW4a93" class="btn btn-come-student btn-success btn-lg center-block">Cтати студентом</a>
-                    </div>
-                    <div class="col-md-6">
-                        <div >
-                            <h2> Задай питання! </h2>
-                            <input id ='email' name="email" placeholder="e-mail" type="text" class="form-control">
-                            <textarea id ='question' name="question" placeholder="Ваше повідомлення" class="form-control"></textarea>
-                            <button id="sendQuestion" class="btn send-question btn-block btn-send btn-success btn-lg center-block">Відправити повідомлення</button>
-
-                            <div id="contactUsBlock"></div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 </div>
-<footer  class="footer">
+<footer id="contact"  class="footer">
     <div class="footer-copyright">
-        <div class="container">
+        <div  class="container">
+            <div class="row contact">
+                <h1 class="center-block text-center">Маєте запитання? Напишіть нам!</h1>
+            </div>
             <div class="row">
                 <div class="col-md-3 col-xs-6 col-sm-3 col-lg-3 ">
                     <img class="zstu" src="img/ZSTU.png">
@@ -322,8 +305,8 @@
                 </div>
             </div>
         </div>
-
     </div>
+    <iframe class="center" src="https://docs.google.com/forms/d/1rLHZMj69bU6QM_sxfcbVXewk9H-gR83Fq7UCQgeT0H4/viewform?embedded=true" width="100%" height="1700px" frameborder="0" marginheight="0" marginwidth="0">Завантаження...</iframe>
 </footer>
 
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -351,8 +334,8 @@
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
         i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
         a = s.createElement(o),
                 m = s.getElementsByTagName(o)[0];
         a.async = 1;
@@ -367,23 +350,23 @@
 </script>
 
 <script>
-    $('#sendQuestion').on('click',function(){
+    $('#sendQuestion').on('click', function () {
         $.ajax({
-            url: '//' + location.hostname + '/question?email='+$('#email').val()+'&content='+$('#question').val(),
+            url: '//' + location.hostname + '/question?email=' + $('#email').val() + '&content=' + $('#question').val(),
             type: 'GET',
             dataType: 'json',
             processData: false,
-            success: function(response){
+            success: function (response) {
                 $('#email').val('');
                 $('#question').val('');
                 $('#contactUsBlock').html('<span class="btn send-question btn-block btn-send btn-success btn-lg center-block alert alert-info">Дякуємо за питання! Ми обов’язково вам відповімо</span>');
 //                alert alert-info
             },
-            error: function(response){
+            error: function (response) {
             }
         });
     });
-    $('#contactUsBlock').on('click',function(){
+    $('#contactUsBlock').on('click', function () {
         $(this).toggle();
     })
 </script>

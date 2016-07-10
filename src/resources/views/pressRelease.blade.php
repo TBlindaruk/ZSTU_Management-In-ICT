@@ -40,7 +40,7 @@
                 <li><a href="/#video">Про спеціальність</a></li>
                 <li><a href="/#features">Форми навчання</a></li>
                 <li><a href="/#program">Програма</a>
-                <li><a href="/#contact">Контакти</a></li>
+                <li><a href="#contact">Контакти</a></li>
                 <li><a href="pressRelease">Прес-реліз</a></li>
             </ul>
 
@@ -103,9 +103,12 @@
     </div>
 </div>
 
-<footer id="contact" class="footer">
+<footer id="contact"  class="footer">
     <div class="footer-copyright">
-        <div class="container">
+        <div  class="container">
+            <div class="row contact">
+                <h1 class="center-block text-center">Маєте запитання? Напишіть нам!</h1>
+            </div>
             <div class="row">
                 <div class="col-md-3 col-xs-6 col-sm-3 col-lg-3 ">
                     <img class="zstu" src="img/ZSTU.png">
@@ -135,7 +138,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 </footer>
 
