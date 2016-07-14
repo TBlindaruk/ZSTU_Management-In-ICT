@@ -38,7 +38,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="#levelUp">Профіль</a></li>
                 <li><a href="#video">Про спеціальність</a></li>
-                <li><a href="#features">Форми навчання</a></li>
+                <li><a href="#features">Форми організації навчального процесу</a></li>
                 <li><a href="#program">Програма</a></li>
                 <li><a href="#contact">Контакти</a></li>
                 <li><a href="pressRelease">Прес-реліз</a></li>
@@ -180,7 +180,7 @@
         <div class="form-education-inner-wrapper">
             <div class="container">
                 <div class="inner-page">
-                    <h2 class="page-headline large text-center title">Форми Навчання</h2>
+                    <h2 class="page-headline large text-center title">форми організації навчального процесу</h2>
 
                     <p class="text-center">Ми прагнемо, щоб наші випускники отримали професійний
 
