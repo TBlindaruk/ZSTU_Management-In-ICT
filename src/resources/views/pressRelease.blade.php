@@ -131,10 +131,8 @@
                     <span><a href="morozov.andriy@gmail.com">morozov.andriy@gmail.com</a></span>
                 </div>
                 <div class="col-md-3 col-xs-12 col-sm-3 col-lg-3 contact-item">
-                    <span>Андрій Єфіменко</span>
-                    <span>Зав. кафедри комп’ютерної інженерії</span>
-                    <span><a href="yefim1976@gmail.com">yefim1976@gmail.com</a></span>
-
+                    <span>Інформаційна Підтримка</span>
+                    <span><a href="it.management.zstu@gmail.com">it.management.zstu@gmail.com</a></span>
                 </div>
             </div>
         </div>
