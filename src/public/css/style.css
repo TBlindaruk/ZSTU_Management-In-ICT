@@ -296,3 +296,15 @@ section.form-education .col-md-8 {
 .footer-copyright {
     padding-bottom: 40px;
 }
+.course-program{
+    border-bottom: 1px dashed #eee;
+    color: #eee;
+    font-weight: bold;
+}
+.course-program:focus,
+.course-program:active,
+.course-program:hover
+{
+    border-bottom: none;
+    color: #90CAF9;
+}

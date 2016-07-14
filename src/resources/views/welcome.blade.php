@@ -88,10 +88,12 @@
 
                             <div class="panel panel-org-info col-md-11">
                                 <ul class="list-group list-group-flush">
+
                                     <li class="list-group-item">Кількість місць - 15</li>
                                     <li class="list-group-item">Термін навчання - 1.5 роки</li>
                                     <li class="list-group-item">Розклад планується з урахуванням побажань студентів</li>
                                     <li class="list-group-item">Орієнтована вартість - 14 900 грн. в рік</li>
+                                    <li class="list-group-item"><a target="_blank" class="course-program" href="https://drive.google.com/file/d/0B_neBIBINmOvY3IzWEc4eWdPU0U/view?usp=sharing">Дізнатися більше</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -266,7 +268,6 @@
                     </ul>
                 </div>
             </div>
-            <!--<div data-bind="topicsPercentage: {program: program}" class="program-topic-progress"></div>-->
         </div>
     </section>
 </div>
