@@ -297,11 +297,11 @@
                     <span>Андрій Морозов</span>
                     <span>декан ФІКТ</span>
                     <span>тел. (098) 506-43-86</span>
-                    <span><a href="morozov.andriy@gmail.com">morozov.andriy@gmail.com</a></span>
+                    <span><a href="mailto:morozov.andriy@gmail.com">morozov.andriy@gmail.com</a></span>
                 </div>
                 <div class="col-md-3 col-xs-12 col-sm-3 col-lg-3 contact-item">
                     <span>Інформаційна Підтримка</span>
-                    <span><a href="it.management.zstu@gmail.com">it.management.zstu@gmail.com</a></span>
+                    <span><a href="mailto:it.management.zstu@gmail.com">it.management.zstu@gmail.com</a></span>
 
                 </div>
             </div>
