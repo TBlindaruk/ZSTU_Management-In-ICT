@@ -180,7 +180,7 @@
         <div class="form-education-inner-wrapper">
             <div class="container">
                 <div class="inner-page">
-                    <h2 class="page-headline large text-center title">форми організації навчального процесу</h2>
+                    <h2 class="page-headline large text-center title">Форми організації навчального процесу</h2>
 
                     <p class="text-center">Ми прагнемо, щоб наші випускники отримали професійний
 
