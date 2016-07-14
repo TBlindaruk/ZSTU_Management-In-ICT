@@ -88,11 +88,11 @@
 
                             <div class="panel panel-org-info col-md-11">
                                 <ul class="list-group list-group-flush">
-
                                     <li class="list-group-item">Кількість місць - 15</li>
                                     <li class="list-group-item">Термін навчання - 1.5 роки</li>
                                     <li class="list-group-item">Розклад планується з урахуванням побажань студентів</li>
                                     <li class="list-group-item">Орієнтована вартість - 14 900 грн. в рік</li>
+                                    <li class="list-group-item">Вступна компанія: 11 - 12 липня, 23 - 24 липня до 12:00 </li>
                                     <li class="list-group-item"><a target="_blank" class="course-program" href="https://docs.google.com/document/d/1-l_eYsCwsN_GVEclYkh5sLmefzrCuZ5v0a89OXFnwvw/edit">Дізнатися більше</a></li>
                                 </ul>
                             </div>
