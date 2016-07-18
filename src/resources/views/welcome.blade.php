@@ -40,6 +40,7 @@
                 <li><a href="#video">Про спеціальність</a></li>
                 <li><a href="#features">Навчальні активності</a></li>
                 <li><a href="#program">Програма</a></li>
+                <li><a href="#abit">Абітурієнту</a>
                 <li><a href="#contact">Контакти</a></li>
                 <li><a href="pressRelease">Прес-реліз</a></li>
             </ul>
@@ -258,7 +259,6 @@
     <section class="program" id="program">
         <div class="container">
             <h2 class="title text-center"> Програма</h2>
-
             <div data-bind="foreach: program" class="row program-container">
                 <div class="sub-program-name">
                     <h4 class="title">
@@ -267,6 +267,47 @@
                     </h4>
                     <ul data-bind="foreach: subjects">
                         <li><i class="icon-tag text-info"></i> <span data-bind="text: $data"></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="abit" id ="abit">
+        <div class="container">
+            <h1 class="text-center">Абітурієнту</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Важлива інформація</h3>
+                    <ul>
+                        <li><a href="#">Як приєднатися</a></li>
+                        <li><a href="#">Важливі дати</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 ">
+                    <h3>Документи</h3>
+                    <ul>
+                        <li>
+                            <a target="_blank" href="https://drive.google.com/file/d/0B_neBIBINmOvY3IzWEc4eWdPU0U/view?usp=sharing">Буклет</a>
+                        </li>
+                        <li><a target="_blank"
+                               href="https://docs.google.com/document/d/1-l_eYsCwsN_GVEclYkh5sLmefzrCuZ5v0a89OXFnwvw/edit">Management
+                                in ICT - profile</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://admissions.blog.ztu.edu.ua/files/2016/07/mag_fikt_ipz.pdf">
+                                Екзамен з програмування
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://admissions.blog.ztu.edu.ua/files/2014/11/English.pdf">
+                                Екзамен з англійської мови
+                            </a>
+                        </li>
+                    </ul>
+                        <span class="">
+                           </span>
+                        <span class="">
+                            </span>
                     </ul>
                 </div>
             </div>

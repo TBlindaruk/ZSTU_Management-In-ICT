@@ -40,6 +40,7 @@
                 <li><a href="/#video">Про спеціальність</a></li>
                 <li><a href="/#features">Навчальні активності</a></li>
                 <li><a href="/#program">Програма</a>
+                <li><a href="/#abit">Абітурієнту</a>
                 <li><a href="#contact">Контакти</a></li>
                 <li><a href="pressRelease">Прес-реліз</a></li>
             </ul>
