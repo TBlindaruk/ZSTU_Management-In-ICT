@@ -303,6 +303,11 @@
                                 Екзамен з англійської мови
                             </a>
                         </li>
+                        <li>
+                            <a target="_blank" href="https://drive.google.com/file/d/0B_neBIBINmOvRnU1RWQ2VnlhaXc/view">
+                                Екзамен з менеджменту
+                            </a>
+                        </li>
                     </ul>
                         <span class="">
                            </span>
