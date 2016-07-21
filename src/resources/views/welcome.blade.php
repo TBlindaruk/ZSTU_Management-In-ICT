@@ -279,8 +279,8 @@
                 <div class="col-md-6">
                     <h3>Важлива інформація</h3>
                     <ul>
-                        <li><a href="#">Як приєднатися</a></li>
-                        <li><a href="#">Важливі дати</a></li>
+                        <li><a target="_blank" href="https://docs.google.com/document/d/1eP25EBGwBDulvAD-ljKXo6nmQIai5yNbw6ZjNbQ8pwI/edit?usp=sharing">Інформація щодо вступу</a></li>
+                        <li><a target="_blank" href="https://drive.google.com/open?id=1-24oXBUd47gkePlBQ24zCre-rALXT0gTDCn_XZzC_T8">Основні дати вступної кампанії 2016</a></li>
                     </ul>
                 </div>
                 <div class="col-md-6 ">
