@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Менеджмент в ІТ ">
-    <meta name="author" content="">
+    <meta name="author" content="Менеджмент в ІТ">
+    <meta name="keywords" content="полiтех,политех,унiверситет,университет,ЖДТУ,ЖГТУ,Житомир,Менеджмент,ІТ">
     <meta property="og:image" content="http://it-man.ztu.edu.ua/img/ManagementIT.jpg" />
 
     <link rel="shortcut icon" href="img/ManagementIT.jpg">
